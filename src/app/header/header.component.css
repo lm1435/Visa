@@ -1,0 +1,79 @@
+@media (min-width: 200px) {
+  nav {
+    height: 88px;
+    width: 100%;
+    background-color: #132b92;
+  }
+
+  .navbar-default {
+    border-radius: 0;
+  }
+  .navbar-header img {
+    margin: 25px 0 0 20px;
+    height: 35px;
+  }
+  .navbar-nav a {
+    color: white;
+    font-size: 1rem;
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  }
+  .navbar-nav a:hover, .navbar-nav a:focus {
+    color: #f7b600
+  }
+  .divider {
+    border: 1px solid silver;
+    font-size: 35px;
+  }
+  .navbar-toggle {
+    margin-top: 25px;
+  }
+  /*.navar-toggle:hover {
+    color: #f7b600;
+  }*/
+}
+@media (min-width: 768px) {
+  .fa-search {
+    color: #f7b600;
+    padding-top: 10px;
+    margin-left: 1rem;
+  }
+  li {
+    margin: 15px 0 0 0;
+  }
+}
+@media (min-width:769px) {
+  .navbar-default {
+    margin-bottom: 0;
+    border-bottom-width: 0;
+  }
+  .navbar-nav a {
+    font-size: 1.2rem;
+  }
+  .navbar-collapse {
+    width: 82%;
+  }
+  .fa-search {
+    margin-left: .5em;
+    font-weight: lighter;
+  }
+  .yellow-bar {
+    height: 10px;
+    background-color: #f7b600;
+  }
+}
+@media (min-width: 940px) {
+  .navbar-nav a {
+    font-size: 1.5rem;
+  }
+  .navbar-collapse {
+    width: 75%;
+  }
+}
+@media (min-width: 1280px) {
+  li {
+    margin: 15px 1em 0 0;
+  }
+  .navbar-nav a {
+    font-size: 1.75rem;
+  }
+}
